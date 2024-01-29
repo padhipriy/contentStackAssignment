@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ant-table-column-title{
+  font-size: 14px !important;
+  font-weight:600 !important;
+  line-height: 21px !important;
+  color:#475161 !important;
+}
+.ant-table-column-sorter{
+  margin-top: 5px;
+}
+.ant-table-cell .ant-table-selection-column ,.ant-table-wrapper .ant-table-thead>tr>th ,.ant-table-wrapper .ant-table-tbody>tr>td{
+  padding: 6px 16px !important;
+}
+.ant-table-cell{
+  border:none;
+  background: none;
+}
+.ant-table-selection-column{
+  border-inline-end: 0px solid #f0f0f0 !important;
+}
+.ant-checkbox-inner{
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 0px !important;
+  border: 1px solid #475161 !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner{
+  background-color: #6C5CE7 !important;
+  border-color: #6C5CE7 !important;
+}
+.ant-table-filter-column{
+  /* display: block !important; */
+  min-width: 150px  !important;
+}
+/* .ant-table-filter-trigger{
+  display: inline-block !important;
+} */
+.ant-table-tbody .ant-table-cell{
+  border-bottom: none !important;
+}
+.ant-checkbox-indeterminate .ant-checkbox-inner:after{
+  background-color: #fff !important;
+  height: 2px !important;
+}
+/* .ant-table-cell{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 400px  !important;
+} */
+.ant-table-cell-fix-right{
+  background: #ffffff !important;
+}
+/* .ant-table-thead >tr>th {
+  background:none !important;
+} */
+.ant-table-wrapper td.ant-table-column-sort {
+  background: none !important;
+}
+.ant-btn-default {
+  border-color: #6c5ce7 !important;
+}
+.ant-btn >span{
+  color: #6c5ce7 !important;
+  font-weight: 600 !important;
+  font-size: "16px" !important;
+}
+.ant-btn-primary {
+
+  background: #6c5ce7 !important;
+}
+.ant-btn-primary >span{
+  color: #fff !important;
+}
+.ant-checkbox-indeterminate .ant-checkbox-inner {
+  background-color: #6c5ce7 !important;
+}
+.ant-table-container{
+  overflow: auto !important;
+}
+.ant-table-wrapper .ant-table-column-sorter-up.active,.ant-table-wrapper .ant-table-column-sorter-down.active{
+ color:  #6c5ce7 !important;
+}
